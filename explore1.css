@@ -1,0 +1,81 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+}
+
+header { 
+    background: url('https://www.shutterstock.com/image-vector/travel-banner-landmarks-airplane-around-260nw-1025799550.jpg') no-repeat center/cover; 
+    color: rgb(100, 225, 244); 
+    text-align: center; 
+    padding: 60px 20px; 
+    font-weight: bold; 
+    text-shadow: 2px 0px 0px black;  
+    -webkit-text-stroke: 1px black; 
+}
+
+nav { 
+    background: #aee9e6; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+nav a { 
+    color: rgb(236, 140, 178); 
+    text-decoration: none; 
+    margin: 0 15px; 
+    font-weight: bold; 
+}
+
+nav a:hover { 
+    color: #a96024; 
+}
+
+section { 
+    padding: 40px 20px; 
+}
+
+h2 { color: #f0f3f4; }
+h3 { color: #45597a; }
+h4 { color: #eaa26e; }
+dl { color: #9d595f; }
+details { color: rgb(5, 129, 253); }
+
+table { 
+    margin: auto; 
+    border-collapse: collapse; 
+}
+
+td, th { 
+    padding: 10px; 
+    border: 1px solid #000; 
+}
+
+.gallery { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: center; 
+}
+
+.gallery img { 
+    width: 200px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+
+iframe { 
+    width: 100%; 
+    max-width: 560px; 
+    height: 315px; 
+    display: block; 
+    margin: auto; 
+}
+
+footer { 
+    background: #396576; 
+    color: rgb(23, 1, 1); 
+    text-align: center; 
+    padding: 20px; 
+}
