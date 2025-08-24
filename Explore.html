@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+            header { background: url('https://www.shutterstock.com/image-vector/travel-banner-landmarks-airplane-around-260nw-1025799550.jpg') no-repeat center/cover; color: rgb(100, 225, 244); text-align: center; padding: 60px 20px; font-weight: bold; text-shadow: 2px 0px 0px black;  -webkit-text-stroke: 1px black; }
+            nav { background: #aee9e6; padding: 10px; text-align: center; }
+            nav a { color: rgb(236, 140, 178); text-decoration: none; margin: 0 15px; font-weight: bold; }
+            nav a:hover { color: #a96024; }
+            section { padding: 40px 20px; }
+            h2 { color: #f0f3f4; }
+            h3 { color: #45597a; }
+            h4 { color: #eaa26e; }
+            dl { color: #9d595f}
+            details { color : rgb(5, 129, 253)}
+            table { margin: auto; border-collapse: collapse; }
+            td, th { padding: 10px; border: 1px solid #000; }
+            .gallery { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+            .gallery img { width: 200px; height: 150px; object-fit: cover; border-radius: 5px; }
+            iframe { width: 100%; max-width: 560px; height: 315px; display: block; margin: auto; }
+            footer { background: #396576; color: rgb(23, 1, 1); text-align: center; padding: 20px; }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to the World of Wonders.</h1>
+            <h2>Earth a Beautiful planet</h2>
+            <p>Discover new places. Collect memories. Travel the world.</p>
+        </header>
+        <nav>
+            <a href="https://en.wikipedia.org/wiki/Travel">Explore More about Travel</a>
+        </nav>
+        <br>
+        <table>
+            <tr>
+                <th>Destination</th>
+                <th>Transport</th>
+                <th>Duration</th>
+            </tr>
+            <tr>
+                <td>Paris</td>
+                <td>Flight</td>
+                <td>7 Days</td>
+            </tr>
+            <tr>
+                <td>Tokyo</td>
+                <td>Flight + Train</td>
+                <td>10 Days</td>
+            </tr>
+            <tr>
+                <td>New York</td>
+                <td>Flight</td>
+                <td>5 Days</td>
+            </tr>
+            <tr>
+                <td>Goa</td>
+                <td>Train</td>
+                <td>4 Days</td>
+            </tr>
+        </table>
+        <article>
+            <h4>Exploring Paris</h4>
+            <p>Paris is famous for its art, fashion, gastronomy, and culture. The Eiffel Tower and Louvre Museum are must-sees.</p>
+            <img src="https://www.aparisguide.com/eiffeltower/eiffel-tower002.jpg" alt="Eiffel Tower in Paris" width="300">
+            <figcaption>Eiffel Tower</figcaption>
+        </article>
+        <article>
+            <h4>Discovering Tokyo</h4>
+            <p>Tokyo blends tradition with technology. From serene temples to neon-lit streets, it’s a traveler’s paradise.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9oReVywiOWjZJdTnccqRD5r2dS7auFtbhSg&s" alt="Tokyo city lights" width="300">
+            <figcaption>Tokyo Street lights</figcaption>
+        </article>
+        <h3>Travel Gallery</h3>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dHJhdmVsfGVufDB8fDB8fHww" width="200">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqvFdpefJi2hOnOjNhVL78frJ-clk2_NqW8Q&s" width="200">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn3SP_2NcVB54ExrMA8qQgvjBl3UOeOHMmpg&s" width="240">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSl7zxPeml4O5ehTVdg9u20U4j2EqewvY28A&s" width="240">
+        </div>
+        <br><br>
+        <form>
+            <label for="country">Choose your country:</label>
+            <select id="country" name="user_country">
+                <option value="usa">United States</option>
+                <option value="can">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="aus">Australia</option>
+            </select>
+            <br><br>
+            <label for="message">Travel Experience:</label>
+            <textarea id="message" name="user_message" rows="2" cols="30"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <br>
+        <iframe src="https://www.youtube.com/embed/6ZGAGSpx5Hc"></iframe>
+        <h3>Top Travel Tips</h3>
+            <ul>
+                <li>Pack light</li>
+                <li>Carry a power bank</li>
+                <li>Learn basic local phrases</li>
+            </ul>
+        <dl>
+            <dt>-->Visa</dt>
+            <dd>Check requirements before booking.</dd>
+            <dt>-->Currency</dt>
+            <dd>Always keep some local cash handy.</dd>
+        </dl>
+        <h3>Travel Progress</h3>
+        <label>Countries visited:</label>
+        <meter value="25" min="0" max="100">75%</meter>
+        <br><br>
+        <h3>Travel FAQ</h3>
+        <details>
+        <summary>What’s the best time to travel to Paris?</summary>
+        <p>April to June or October to early November for pleasant weather and fewer crowds.</p>
+        </details>
+        <br><br>
+        <footer>
+            <p>&copy; 2025 Aruri Helona. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
