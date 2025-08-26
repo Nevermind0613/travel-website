@@ -1,0 +1,116 @@
+body { 
+    font-family: Arial, sans-serif;
+    font-size: larger; 
+    margin: 0; 
+    padding: 0; 
+    background: url("https://i.pinimg.com/736x/f5/71/72/f571725b12bcd42adefd74d01215ea19.jpg") center/cover;
+    color: white;
+}
+
+header { 
+    background: url('https://www.shutterstock.com/image-vector/travel-banner-landmarks-airplane-around-260nw-1025799550.jpg') no-repeat center/cover; 
+    color: #ffffff; 
+    text-align: center;
+    font-size: large; 
+    padding: 60px 20px; 
+    font-weight: bold; 
+    text-shadow: 0px 0px 0px rgb(0, 0, 0);  
+    -webkit-text-stroke: 1px rgb(0, 0, 0)
+ 
+}
+
+nav { 
+    background: #ac7bf0a6; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+header p{
+    color: #ffffff;
+    font-size: 23px; 
+    text-shadow: 0px 0px 0px rgb(0, 0, 0);  
+    -webkit-text-stroke: 1px rgb(0, 0, 0)
+ 
+}
+nav a { 
+    color: rgb(32, 86, 27); 
+    text-decoration: none; 
+    margin: 0 15px; 
+    font-weight: bold; 
+}
+
+nav a:hover { 
+    color: #1e06f7; 
+}
+
+section { 
+    padding: 40px 20px; 
+}
+
+h2 { color: #ffffff;font-size: larger;}
+h3 { color: #000000;}
+h4 { color: #000000;}
+ul { color: #000000;}
+dl { color: #ec0e0e;}
+details { color: #0008ff; }
+
+article p {
+    color: #000000
+}
+
+table { 
+    margin: auto; 
+    border-collapse: collapse;
+    background-color: #b887a5;
+}
+
+label {
+    color: #890dbe; text-shadow: 1px 0px 0px black;  
+    -webkit-text-stroke: 0px black
+}
+
+
+select {
+    color: #0250bde7;
+    ;
+}
+
+td, th { 
+    padding: 10px; 
+    border: 1px solid #ffffff;
+    color: #0a0000; 
+}
+
+figcaption {
+    color: #000000; text-shadow: 1px 0px 0px rgb(245, 243, 243);  
+    -webkit-text-stroke: 1px rgb(66, 5, 251)
+}
+
+.gallery { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: center; 
+}
+
+.gallery img { 
+    width: 200px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+iframe { 
+    width: 100%; 
+    max-width: 560px; 
+    height: 315px; 
+    display: block; 
+    margin: auto; 
+}
+
+footer { 
+    background: #396576; 
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+    padding: 20px; 
+}
